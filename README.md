@@ -63,15 +63,25 @@ Seaborn
 
 📁 Project Structure
 Workshop_JPL/
+
 ├── data/                      # Data directory
+
 │   └── candidates.csv         # Input data file
+
 ├── dw/                        # (Optional) Generated dimension and fact CSVs
+
 ├── visualizations/            # Generated visualizations (optional)
+
 ├── ETL.py                     # ETL pipeline script
+
 ├── KPIs.py                    # KPI analysis and visualization script
+
 ├── conection.py               # Database connection manager (SQLAlchemy engine)
+
 ├── requirements.txt           # Dependencies
+
 └── README.md                  # Project documentation
+
 🔧 Setup Instructions
 Place your candidates.csv file in the project root
 

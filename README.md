@@ -1,8 +1,8 @@
-#ETL Workshop 
-##📋 Project Description
+ETL Workshop 
+📋 Project Description
 This project implements a complete ETL process for selection process data, including extraction, transformation, loading into a Data Warehouse, and generating KPIs with visualizations.
 
-##🏗️ Project Architecture
+🏗️ Project Architecture
 -Extract: Data loading from CSV file
 
 -Transform: Data cleaning, business rule application, and dimensional model creation
@@ -11,7 +11,7 @@ This project implements a complete ETL process for selection process data, inclu
 
 -Analysis: SQL queries and visualizations from the DW
 
-##📊 Dimensional Model
+📊 Dimensional Model
 Star schema with:
 
 Fact_Hiring: Fact table with hiring metrics

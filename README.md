@@ -1,17 +1,17 @@
-ETL Workshop - Data Engineering Challenge
-📋 Project Description
+#ETL Workshop 
+##📋 Project Description
 This project implements a complete ETL process for selection process data, including extraction, transformation, loading into a Data Warehouse, and generating KPIs with visualizations.
 
-🏗️ Project Architecture
-Extract: Data loading from CSV file
+##🏗️ Project Architecture
+-Extract: Data loading from CSV file
 
-Transform: Data cleaning, business rule application, and dimensional model creation
+-Transform: Data cleaning, business rule application, and dimensional model creation
 
-Load: Loading into SQLite Data Warehouse
+-Load: Loading into SQLite Data Warehouse
 
-Analysis: SQL queries and visualizations from the DW
+-Analysis: SQL queries and visualizations from the DW
 
-📊 Dimensional Model
+##📊 Dimensional Model
 Star schema with:
 
 Fact_Hiring: Fact table with hiring metrics
@@ -24,14 +24,14 @@ Dim_Country: Geographic dimension
 
 Dim_Seniority: Experience level dimension
 
-🚀 Installation and Usage
-Clone the repository
+##🚀 Installation and Usage
+-Clone the repository
 
-Install dependencies: pip install -r requirements.txt
+-Install dependencies: pip install -r requirements.txt
 
-Execute the ETL pipeline
+-Execute the ETL pipeline
 
-Visualizations will be generated automatically
+-Visualizations will be generated automatically
 
 📈 Implemented KPIs
 Hires by technology
